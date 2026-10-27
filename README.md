@@ -20,9 +20,7 @@ classic approaches to see which gives fewer misclassified events and better reca
 
 - GMM improved accuracy by **+2.7 points** over DTW.
 - The difference was statistically significant (independent-samples t-test, p < 0.05; SPSS and ClinCalc, alpha = 0.05, 80% power).
-- Recall: [add your recall numbers for GMM and DTW here]
-
-![DTW vs GMM accuracy](results/accuracy_dtw_vs_gmm.png)
+- The results have been attached with the documents 
 
 ## Approach
 1. **Acoustic data:** [source, number of recordings, number of event classes]
@@ -34,9 +32,7 @@ classic approaches to see which gives fewer misclassified events and better reca
 5. **Evaluation:** accuracy and recall over 10 iterations, error analysis, independent-samples t-test
 
 ## Dataset
-[Name, source link, number of samples, sampling rate, train/test split.
-If the data is recorded by you or simulated, say so clearly.]
-
+- Dataset link: https://www.kaggle.com/datasets/ejlok1/cremad
 ## Project structure
 ```
 acoustic-event-classification/
@@ -53,14 +49,15 @@ acoustic-event-classification/
 git clone https://github.com/thrka33/acoustic-event-classification
 cd acoustic-event-classification
 pip install -r requirements.txt
-jupyter notebook
+download python.py
+run in VS code.
 ```
 
 ## Limitations and next steps
-- Results come from 10 iterations on [dataset size]; a larger dataset would give stronger evidence.
+- Results come from 10 iterations on 2800; a larger dataset would give stronger evidence.
 - Try a CNN on MFCC / spectrogram inputs and compare against GMM.
 - Test on noisier real-world recordings.
 
 ## Author
 **Tharika S**, B.E. Electronics and Communication Engineering, Saveetha School of Engineering
-[GitHub](https://github.com/thrka33)
+
