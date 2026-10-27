@@ -1,0 +1,9 @@
+# Predictive Fault Detection in Smart Embedded Communication (ARIMA vs ARMA)
+# Remove any library you did not actually use. Run `pip freeze` to pin exact versions.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10            # independent-samples t-test, Levene's test
+statsmodels>=0.14      # ARIMA / ARMA, Holt-Winters (ExponentialSmoothing)
+scikit-learn>=1.3      # train/test split, metrics
+matplotlib>=3.7        # accuracy comparison plots
+jupyter>=1.0
